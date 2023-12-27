@@ -1,7 +1,5 @@
 const dotenv = require('dotenv');
 
-console.log(process.env);
-
 let ENV_FILE_NAME = '';
 switch (process.env.NODE_ENV) {
   case 'production':
